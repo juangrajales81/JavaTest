@@ -10,7 +10,7 @@ How to use:
 
 
 a) Create a single record
-METOD: POST 
+METHOD: POST 
 URL: localhost:8080/api/projects
 BODY:
 {
@@ -22,18 +22,18 @@ BODY:
 
 b)Return ALL records
 
-METOD: GET
+METHOD: GET
 URL: localhost:8080/api/projects
 
 
 c) Return a single record
 
-METOD: GET 
+METHOD: GET 
 URL: localhost:8080/api/projects/1
 
 
 d) Update a record
-METOD: PUT 
+METHOD: PUT 
 URL: localhost:8080/api/projects/1
 BODY:
 {
@@ -44,6 +44,6 @@ BODY:
 
 e) Delete a record
 
-METOD: DELETE 
+METHOD: DELETE 
 URL: localhost:8080/api/projects/1
 
